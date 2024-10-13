@@ -48,6 +48,13 @@ To get a local copy up and running, follow these steps:
         docker exec -i vms_db_1 mysql -uroot -p{rootpassword} vehicle_management < /vms.sql
     ```
 
+5. ** Stop Docker Container**
+    ```bash
+        docker stop {container_id_or_name}
+    ```
+    * You can stop multiple containers at once by listing their IDs/names separated by spaces 
+
+
 
 
 
